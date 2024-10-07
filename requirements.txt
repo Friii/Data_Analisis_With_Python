@@ -1,4 +1,3 @@
-python
 Babel
 numpy
 matplotlib
