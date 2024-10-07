@@ -216,3 +216,5 @@ with st.container():
     ax[2].tick_params(axis='x', labelsize=35)
     
     st.pyplot(fig)
+
+    st.caption("(c) 2024 Fachri Fathurrohman. All rights reserved")

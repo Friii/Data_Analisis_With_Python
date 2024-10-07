@@ -1,21 +1,19 @@
 # Zeta Mart Dashboard ✨
+Proyek ini adalah hasil kerja saya mengenai data analisis dengan menggunakan python. Proyek ini sudah saya deploy ke dalam streamlit https://data-analyst-with-python-submission.streamlit.app/
 
-## Setup Environment - Anaconda
+## Deskripsi
+Proyek ini bertujuan untuk menganalisis sebuah data E-commerce Public Dataset. Yang bertujuan untuk menganalisis sebuah data E-commerce Public Dataset dan juga mengambil data-data yang berguna untuk kita simpulkan nantinya 
+
+## Instalasi
+1. Mengambil data dari github (clone)
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
+git clone https://github.com/Friii/Data_Analisis_With_Python.git
+```
+2. Periksa apakah komputer sudah menginstal library yang diperlukan
+```
+pip install steamlit
 pip install -r requirements.txt
 ```
-
-## Setup Environment - Shell/Terminal
-```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
-pip install -r requirements.txt
-```
-
 ## Run steamlit app
 ```
 streamlit run dashboard/dashboard.py
