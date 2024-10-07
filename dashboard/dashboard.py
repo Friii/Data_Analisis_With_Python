@@ -168,14 +168,14 @@ with st.container():
     col1, col2 = st.columns(2)
 
     with col1:
-        visual_data("state", "State", "Customers Count by State") 
+        visual_data("state", "State", "Perhitungan Customer dari Negara Bagian (State)") 
 
     with col2:
-        visual_data("city", "City", "Customers Count by City") 
+        visual_data("city", "City", "Perhitungan Customer dari Kota (City)") 
 
 rfm_df = create_rfm_df(main_df)
 with st.container():
-    st.subheader("Best Customer Based on RFM Parameters")
+    st.subheader("Pelanggan Terbaik Berdasarkan Parameter RFM")
 
     col1, col2, col3 = st.columns(3)
     
